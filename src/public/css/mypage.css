@@ -1,0 +1,146 @@
+.reserve__title-1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.reserve {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reserve__form {
+  width: 300px;
+  height: 200px;
+  background-color: #4169e1;
+  border-radius: 3px;
+  box-shadow: 5px 5px 3px #a9a9a9;
+}
+
+.reserve__number {
+  font-size: 15px;
+  color: #fff;
+}
+
+.reserve__number::before {
+  background: url(img/icon_115930_256.png) no-repeat;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-position: 0px 0px;
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+}
+
+.batsu {
+  font-size: 100%;
+  /*ボタンの大きさ*/
+  font-weight: bold;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 1.3em;
+  line-height: 1.3em;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.batsu:hover {
+  background: #4169e1;
+  border-color: #4169e1;
+  color: #FFF;
+}
+
+.text-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title,
+.shop_name,
+.reserve_date,
+.reserve_time,
+.reserve_number {
+  font-size: 15px;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 100px;
+  margin-top: -15px;
+  border-radius: 3px;
+}
+
+
+.card {
+  width: 200px;
+  height: 225px;
+  cursor: pointer;
+  border: 1px solid #e9eaea;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 5px 5px 3px #a9a9a9;
+}
+
+.text-box {
+  padding: 15px;
+  margin-top: -25px;
+}
+
+.content-img {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.tag {
+  font-size: 10px;
+  margin-top: -15px;
+}
+
+.detail {
+  margin-top: -15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+
+.detail__button {
+  padding: 10px 10px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  text-decoration: none;
+  border-radius: 3px;
+  background: #4169e1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.heart {
+  display: flex;
+  margin-top: -60px;
+  margin-left: 130px;
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  cursor: pointer;
+}

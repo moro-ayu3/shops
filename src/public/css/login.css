@@ -1,0 +1,91 @@
+.login__card {
+  margin: 0 auto;
+  padding: 30px 15px;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 5px 5px 3px #a9a9a9;
+  cursor: pointer;
+  max-width: 1230px;
+}
+
+.login__header {
+  margin: 0 auto;
+  margin-top: -55px;
+  margin-left: -15px;
+  width: 500px;
+  height: 80px;
+  background-color: #4169e1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.login__header-title {
+  padding: 20px 20px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.login__inner {
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 0 auto;
+  width: 25%;
+  text-align: left;
+}
+
+.form__group {
+  margin-bottom: 5px;
+}
+
+.form__group-icon {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: -60px;
+  display: flex;
+}
+
+img.icon150010_256.png {
+  width: 10%;
+  height: 15px;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  text-align: left;
+}
+
+.form__input--text {
+  display: flex;
+  margin-top: -20px;
+}
+
+.form__input--text input {
+  padding: 10px;
+  width: 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+}
+
+.form__button {
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+.form__button-submit {
+  padding: 10px 10px;
+  width: 80px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background: #4169e1;
+  color: #fff;
+  cursor: pointer;
+}
